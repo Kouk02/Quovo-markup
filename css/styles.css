@@ -1,0 +1,73 @@
+body {
+    font-family: "Plus Jakarta Sans", medium;
+    background-color: var(--color-Light-grayish-blue);
+    color: var(--color-slate);
+}
+
+button {
+    cursor: pointer;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-dark-blue: #0D121F;
+    --color-iris: #7C5CFC;
+    --color-dark-gray: #1A202C;
+    --color-white: #FFFFFF;
+    --color-Light-grayish-blue: #F3F5F7;
+    --color-light-green: #9CD323;
+    --color-Vivid-red: #FF4423;
+    --color-Grayish-blue: #90A3BF;
+    --color-Mostly-desaturated-dark-blue: #596780;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: 100%;
+
+}
+
+li {
+    list-style-type: none;
+    font-style: normal;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
