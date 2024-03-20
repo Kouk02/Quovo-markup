@@ -1,6 +1,6 @@
 body {
     font-family: "Plus Jakarta Sans", medium;
-    background-color: var(--color-Light-grayish-blue);
+    background-color: var(--color-dark-blue);
     color: var(--color-slate);
 }
 
@@ -24,6 +24,8 @@ button {
     --color-Vivid-red: #FF4423;
     --color-Grayish-blue: #90A3BF;
     --color-Mostly-desaturated-dark-blue: #596780;
+    --color-gray: #C3D4E9;
+    --color-quovo-gray: #E7DEFE;
 }
 
 a {
@@ -70,4 +72,73 @@ li {
 
 .list {
     list-style: none;
+}
+
+.svg{
+    list-style: none;
+    
+}
+
+header {
+    display: block;
+}
+
+button{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* HEADER */
+.header {
+    border-bottom: 1px solid #e7e9fc;;
+}
+
+.container-header {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+.header-link{
+    color: var(--color-quovo-gray);
+}
+
+
+.nav-link{
+    color: var(--color-white);
+}
+.nav-link-login{
+    color: var(--color-gray);
+}
+
+.header-list{
+    display: flex;
+    gap: 40px;
+    margin-left: 243px;
+    margin-right: 116px;
+    align-items: center;
+    padding-top: 37px; padding-bottom: 37px;
+}
+
+.login-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    
+}
+
+.header-button{
+    height: 52px;
+    width: 125px;
+    border-radius: 30px;
+    border: 0;
+    background-color: var(--color-iris);
+    color: var(--color-white);
 }
