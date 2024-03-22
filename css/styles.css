@@ -109,6 +109,7 @@ button{
 }
 .header-link{
     color: var(--color-quovo-gray);
+    margin-left: 10px;
 }
 
 
@@ -152,4 +153,10 @@ font-family: 'Plus Jakarta Sans';
     letter-spacing: -2%;
     text-align: justify;
     color: var(--color-white);
+}
+
+.heared-icon {
+fill: var(--color-quovo-gray);
+width: 20px;
+height: 28px;
 }
