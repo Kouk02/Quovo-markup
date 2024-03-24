@@ -234,5 +234,6 @@ margin-bottom: 40px;
 
 .img-hero{
     width: 1200px;
-    height: 800px;
+    height: 300px;
+    border-radius: 20px;
 }
