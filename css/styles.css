@@ -26,6 +26,7 @@ button {
     --color-Mostly-desaturated-dark-blue: #596780;
     --color-gray: #C3D4E9;
     --color-quovo-gray: #E7DEFE;
+    --color-black-gray: #040815;
 }
 
 a {
@@ -171,7 +172,6 @@ height: 28px;
 /*! SECTION HERO */
 .hero{
 padding-top: 120px;
-padding-bottom: 90px;
 }
 .hero-name{
     width: 893px;
@@ -235,5 +235,75 @@ margin-bottom: 40px;
 .img-hero{
     width: 1200px;
     height: 300px;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
+}
+
+/*! SECTION FINANCES */
+.container-finances{
+    background-color: var(--color-white);
+    
+    
+}
+.container-finances-description{
+    background-color: var(--color-white);
+}
+
+.container-finances-content{
+    display: flex;
+    width: 925px;
+    height: 162px;
+    margin-left: 120px;
+    margin-right: 395px;
+    margin-top: 120px;
+    
+}
+
+.finances-list{
+    margin-bottom: 64px;
+}
+
+.finances-name-first{
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    color: var(--color-iris);
+    margin-bottom: 12px;
+    
+}
+
+
+.finances-name-second{
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -3%;
+    color: var(--color-black-gray);
+}
+
+.finances-name-third{
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: -3%;
+    color: var(--color-black-gray);
+    
+}
+
+
+.finances-item{
+    
+}
+
+.finances-item-text {
+    margin-top: 192px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-Mostly-desaturated-dark-blue);
+
 }
