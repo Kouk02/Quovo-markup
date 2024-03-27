@@ -175,16 +175,21 @@ height: 28px;
 }
 
 /*! SECTION HERO */
-
-.container-hero-title{
+.container-hero-title {
     max-width: 1200px;
+    position: relative;
 }
 
-.hero{
-padding-top: 120px;
-background-color: var(--color-dark-blue);
+.hero {
+    padding-top: 120px;
+    background-color: var(--color-dark-blue);
+    transition: padding-bottom 0.3s ease;
+    position: relative;
+    padding-bottom: 300px;
+    overflow: visible;
 }
-.hero-name{
+
+.hero-name {
     width: 893px;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
@@ -196,26 +201,25 @@ background-color: var(--color-dark-blue);
     margin-bottom: 24px;
 }
 
-
-.hero-text{
-width: 893px;
-font-family: 'Plus Jakarta Sans';
-font-size: 24px;
-font-weight: 400;
-line-height: 1.5;
-margin: 0 auto;
-text-align: center;
-color: var(--color-Grayish-blue);
-margin-bottom: 40px;
+.hero-text {
+    width: 893px;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--color-Grayish-blue);
+    margin-bottom: 40px;
 }
 
-.container-hero{
+.container-hero {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.hero-button-first{
+.hero-button-first {
     width: 187px;
     height: 52px;
     border: 0;
@@ -228,8 +232,7 @@ margin-bottom: 40px;
     line-height: 1.5;
 }
 
-
-.hero-button-second{
+.hero-button-second {
     width: 141px;
     height: 52px;
     border: 0;
@@ -243,19 +246,36 @@ margin-bottom: 40px;
     margin-bottom: 90px;
 }
 
-.img-hero{
-    width: 1200px;
-    height: 300px;
+.video-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    overflow: visible;
+    /* Змінено з hidden на visible */
+    transition: height 0.3s ease;
+}
+
+.video-overlay:hover {
+    height: 340px;
+}
+
+.video-hero {
+    width: 100%;
+    height: auto;
     border-radius: 20px 20px 0 0;
 }
 
-/*! SECTION FINANCES */
+/* SECTION FINANCES */
 .section-finances {
     display: block;
     max-width: 1440px;
     background-color: var(--color-white);
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    z-index: 1;
 }
 
 .container-finances {
