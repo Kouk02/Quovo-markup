@@ -107,9 +107,8 @@ button{
 .container-header {
     display: flex;
     max-width: 1440px;
-    margin: 0 auto;
     padding: 0 15px;
-    justify-content: center;
+    margin: 0 auto;
 }
 
 .header-nav{
@@ -119,6 +118,11 @@ button{
 .header-link{
     color: var(--color-quovo-gray);
     margin-left: 10px;
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 0.8;
+    letter-spacing: -3%;
 }
 
 
@@ -359,10 +363,10 @@ font-family: "Plus Jakarta Sans";
 
 .finances-name-description {
     margin-bottom: 18px;
-    /* Задає однаковий відступ для всіх елементів */
+
 }
 
-/* Необов'язково, але ви можете додати відступ для першого та останнього елементів, якщо вони знаходяться всередині інших контейнерів */
+
 .finances-item-description:first-child .finances-name-description {
     margin-bottom: 12px;
 }
