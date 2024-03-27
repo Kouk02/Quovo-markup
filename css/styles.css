@@ -1,6 +1,6 @@
 body {
     font-family: "Plus Jakarta Sans", medium;
-    background-color: var(--color-dark-blue);
+    margin: 0;
     color: var(--color-slate);
 }
 
@@ -101,6 +101,7 @@ button{
 /*! HEADER */
 .header {
     border-bottom: 1px solid #e7e9fc;;
+    background-color: var(--color-dark-blue);
 }
 
 .container-header {
@@ -170,12 +171,14 @@ height: 28px;
 }
 
 /*! SECTION HERO */
+
 .container-hero-title{
     max-width: 1200px;
 }
 
 .hero{
 padding-top: 120px;
+background-color: var(--color-dark-blue);
 }
 .hero-name{
     width: 893px;
@@ -247,8 +250,6 @@ margin-bottom: 40px;
     display: block;
     max-width: 1440px;
     background-color: var(--color-white);
-    padding-top: 120px;
-    padding-bottom: 120px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -257,6 +258,8 @@ margin-bottom: 40px;
     width: 925px;
     margin-left: 120px;
     margin-right: 0;
+    padding-top: 120px;
+    padding-bottom: 64px;
 }
 
 .finances-list {
@@ -315,10 +318,55 @@ margin-bottom: 40px;
     color: var(--color-Mostly-desaturated-dark-blue);
 }
 
-
-
+/* ___________________________________________ */
+.container-finances-description{
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-bottom: 120px;
+}
 
 .finances-list-description{
 display: flex;
 gap: 24px;
+}
+
+.finances-image{
+    border-radius: 16px;
+    width: 384px;
+    height: 384px;
+}
+
+.container-item-card-finances{
+    padding-top: 24px;
+}
+
+.finances-name-description{
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -3%;
+    color: #040815;
+}
+.finances-text-decription{
+font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    color: var(--color-Mostly-desaturated-dark-blue);
+}
+
+.finances-name-description {
+    margin-bottom: 18px;
+    /* Задає однаковий відступ для всіх елементів */
+}
+
+/* Необов'язково, але ви можете додати відступ для першого та останнього елементів, якщо вони знаходяться всередині інших контейнерів */
+.finances-item-description:first-child .finances-name-description {
+    margin-bottom: 12px;
+}
+
+.finances-item-description:last-child .finances-name-description {
+    margin-bottom: 12px;
 }
