@@ -269,7 +269,7 @@ height: 28px;
 /*! SECTION FINANCES */
 .section-finances {
     display: block;
-    max-width: 1440px;
+    width: 1440px;
     background-color: var(--color-white);
     margin-left: auto;
     margin-right: auto;
@@ -392,4 +392,144 @@ font-family: "Plus Jakarta Sans";
 
 .finances-item-description:last-child .finances-name-description {
     margin-bottom: 12px;
+}
+
+/*! register section */
+.frame-register-section{
+    background-color: var(--color-dark-blue);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.container-register-name{
+    display: flex;
+    width: 728px;
+    justify-content: center;
+}
+
+.register-list{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.register-name-first{
+    margin-bottom: 12px;
+    font-family: "Plus Jakarta Sans";
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.5;
+        letter-spacing: -2%;
+        color: var(--color-iris);
+        
+}
+.register-name-second{
+    margin-bottom: 24px;
+    font-family: "Plus Jakarta Sans";
+        font-size: 40x;
+        font-weight: 700;
+        line-height: 1.5;
+        letter-spacing: -3%;
+        color: var(--color-white);
+}
+
+.register-text{
+    font-family: "Plus Jakarta Sans";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -2%;
+        color: var(--color-Grayish-blue);
+}
+
+.container-register-card{
+    width: 944px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.register-list-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 63px;
+    gap: 135px;
+}
+
+.register-card-text{
+    font-family: "Plus Jakarta Sans";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    color: var(--color-white);
+    text-align: center;
+    margin-top: 24px;
+}
+
+.item-card-register {
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.circle {
+    display: flex;
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-iris);
+    border: 6px solid var(--color-dark-blue);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5px;
+    color: var(--color-white);
+}
+
+.image-register-card{
+    width: 200px;
+    height: 200px;
+}
+
+
+.register-container-button{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+
+.register-button-first {
+    width: 187px;
+    height: 52px;
+    border: 0;
+    border-radius: 30px;
+    color: var(--color-white);
+    background-color: var(--color-iris);
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.register-button-second {
+    width: 141px;
+    height: 52px;
+    border: 0;
+    border-radius: 30px;
+    background-color: var(--color-dark-gray);
+    color: var(--color-white);
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
 }
