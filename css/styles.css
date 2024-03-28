@@ -253,7 +253,6 @@ height: 28px;
     right: 0;
     height: 0;
     overflow: visible;
-    /* Змінено з hidden на visible */
     transition: height 0.3s ease;
 }
 
@@ -267,7 +266,7 @@ height: 28px;
     border-radius: 20px 20px 0 0;
 }
 
-/* SECTION FINANCES */
+/*! SECTION FINANCES */
 .section-finances {
     display: block;
     max-width: 1440px;
