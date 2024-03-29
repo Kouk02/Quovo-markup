@@ -92,7 +92,7 @@ button{
 }
 
 .container {
-    width: 1200px;
+    width: 1158px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -257,7 +257,7 @@ height: 28px;
 }
 
 .video-overlay:hover {
-    height: 340px;
+    height: 312px;
 }
 
 .video-hero {
@@ -268,30 +268,21 @@ height: 28px;
 
 /*! SECTION FINANCES */
 .section-finances {
-    display: block;
-    width: 1440px;
     background-color: var(--color-white);
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
     z-index: 1;
 }
 
 .container-finances {
-    width: 925px;
-    margin-left: 120px;
-    margin-right: 0;
     padding-top: 120px;
     padding-bottom: 64px;
 }
 
 .finances-list {
     display: flex;
-    justify-content: space-between;
 }
 
 .finances-item {
-    width: 480px;
     margin-right: 160px;
 }
 
@@ -343,9 +334,11 @@ height: 28px;
 
 /* ___________________________________________ */
 .container-finances-description{
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 120px;
+    width: 1200px;
+
 }
 
 .finances-list-description{
@@ -353,10 +346,15 @@ display: flex;
 gap: 24px;
 }
 
+.finances-item-description{
+    height: 100%;
+    width: 100%;
+}
+
 .finances-image{
+    display: block;
     border-radius: 16px;
-    width: 384px;
-    height: 384px;
+    
 }
 
 .container-item-card-finances{
