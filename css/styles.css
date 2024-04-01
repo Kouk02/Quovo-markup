@@ -100,7 +100,7 @@ button{
 
 /*! HEADER */
 .header {
-    border-bottom: 1px solid #e7e9fc;;
+    border-bottom: 2px solid var(--color-dark-gray);
     background-color: var(--color-dark-blue);
 }
 
