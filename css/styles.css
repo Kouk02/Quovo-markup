@@ -811,3 +811,44 @@ width: 608px;
     background-color: var(--color-iris);
     color: var(--color-white);
 }
+
+
+/*! Section profile */
+.section-profile{
+    background-color: var(--color-dark-blue);
+    padding: 120px 0px;
+}
+
+
+.container-profile-first{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name-profile-first{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--color-iris);
+    margin-bottom: 12px;
+}
+
+.name-profile-second{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--color-white);
+    margin-bottom: 24px;
+}
+
+.text-profile{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-Grayish-blue);
+}
