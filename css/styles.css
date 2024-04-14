@@ -825,6 +825,7 @@ width: 608px;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 80px;
 }
 
 .name-profile-first{
@@ -852,3 +853,34 @@ width: 608px;
     line-height: 1.5;
     color: var(--color-Grayish-blue);
 }
+
+
+
+.list-profile{
+    display: flex;
+    gap: 24px;
+}
+
+.item-profile{
+    padding: 32px 32px;
+    background-color: var(--color-dark-gray);
+    border-radius: 12px;
+}
+
+.img-profile-item{
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+}
+
+.text-profile-item{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--color-Light-grayish-blue);
+    padding-bottom: 90px;
+    border-bottom: 1px solid var(--color-Grayish-blue);
+    margin-bottom: 32px;
+}
+
