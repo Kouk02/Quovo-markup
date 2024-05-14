@@ -27,6 +27,7 @@ button {
     --color-gray: #C3D4E9;
     --color-quovo-gray: #E7DEFE;
     --color-black-gray: #040815;
+    --color-sakura: #CEBEFE;
 }
 
 a {
@@ -953,4 +954,127 @@ width: 608px;
 }
 .profile-button:hover .profile-button-icon {
     fill: var(--color-white);
+}
+
+
+
+/*! Footer */
+
+.section-footer{
+    background-color: var(--color-white);
+    padding: 120px 0px;
+}
+
+.containet-footer-all{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-footer-first{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-name{
+    margin-bottom: 38px;
+}
+
+
+.container-footer-link{
+    display: flex;
+    gap: 87px;
+    margin-left: 250px;
+    margin-bottom: 66px;
+}
+
+.footer-link-name{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    color: var(--color-dark-gray);
+    margin-bottom: 32px;
+}
+
+.item-footer-list:not(:last-child){
+    margin-bottom: 24px;
+}
+
+
+.footer-logo {
+    display: flex;
+    margin-bottom: 38px;
+}
+.footer-link-logo{
+    margin-right: 10px;
+}
+
+.footer-name{
+    color: var(--color-dark-gray);
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 0.8;
+    letter-spacing: -3%;
+}
+
+.footer-icon{
+    fill: var(--color-iris);
+}
+
+.footer-text{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    color: var(--color-Mostly-desaturated-dark-blue);
+}
+
+.link-footer{
+    font-family: 'Plus Jakarta Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    color: var(--color-Mostly-desaturated-dark-blue);
+}
+
+.container-footer-end{
+    padding-top: 32px;
+    border-top: 1px solid var(--color-sakura);
+}
+
+.footer-link-list{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.item-footer-link{
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    color: var(--color-dark-gray);
+}
+
+.item-footer-link:last-child{
+    color: var(--color-Mostly-desaturated-dark-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: auto;
+    letter-spacing: -2%;
+}
+
+
+.slash{
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5; 
 }
