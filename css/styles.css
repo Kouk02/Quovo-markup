@@ -130,10 +130,17 @@ button{
 .nav-link{
     color: var(--color-white);
 }
+
+.nav-link:hover{
+color: var(--color-iris);
+}
+
 .nav-link-login{
     color: var(--color-gray);
 }
-
+.nav-link-login:hover{
+    color: var(--color-iris);
+}
 .header-list{
     display: flex;
     gap: 40px;
@@ -159,8 +166,12 @@ button{
     
 }
 
+.header-button:hover {
+    background-color: var(--color-dark-gray);
+}
+
 .header-button-text{
-font-family: 'Plus Jakarta Sans';
+    font-family: 'Plus Jakarta Sans';
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
@@ -233,18 +244,26 @@ height: 28px;
     line-height: 1.5;
 }
 
+.hero-button-first:hover{
+    background-color: var(--color-dark-gray);
+}
+
 .hero-button-second {
     width: 141px;
     height: 52px;
     border: 0;
     border-radius: 30px;
-    background-color: var(--color-dark-gray);
-    color: var(--color-gray);
+    background-color: var(--color-iris);
+    color: var(--color-white);
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 90px;
+}
+
+.hero-button-second:hover{
+    background-color: var(--color-dark-gray);
 }
 
 .video-overlay {
@@ -520,17 +539,25 @@ font-family: "Plus Jakarta Sans";
     line-height: 1.5;
 }
 
+.register-button-first:hover{
+    background-color: var(--color-dark-gray);
+}
+
 .register-button-second {
     width: 141px;
     height: 52px;
     border: 0;
     border-radius: 30px;
-    background-color: var(--color-dark-gray);
+    background-color: var(--color-iris);
     color: var(--color-white);
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
+}
+
+.register-button-second:hover{
+    background-color: var(--color-dark-gray);
 }
 
 /*! Section stepper */
@@ -722,8 +749,8 @@ width: 608px;
     letter-spacing: -2%;
     background-color: var(--color-iris);
     color: var(--color-white);
-
 }
+
 .productivity-button-second {
     width: 195px;
     height: 52px;
