@@ -14,21 +14,7 @@ button {
     box-sizing: border-box;
 }
 
-:root {
-    --color-dark-blue: #0D121F;
-    --color-iris: #7C5CFC;
-    --color-dark-gray: #1A202C;
-    --color-white: #FFFFFF;
-    --color-Light-grayish-blue: #F3F5F7;
-    --color-light-green: #9CD323;
-    --color-Vivid-red: #FF4423;
-    --color-Grayish-blue: #90A3BF;
-    --color-Mostly-desaturated-dark-blue: #596780;
-    --color-gray: #C3D4E9;
-    --color-quovo-gray: #E7DEFE;
-    --color-black-gray: #040815;
-    --color-sakura: #CEBEFE;
-}
+
 
 a {
     text-decoration: none;
@@ -92,8 +78,9 @@ button {
     text-align: center;
 }
 
-.container {
+/* .container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-}
+} */
+
