@@ -46,7 +46,6 @@
         line-height: 0;
     }
 }
-
 .header {
     border-bottom: 2px solid var(--color-dark-gray);
     background-color: var(--color-dark-blue);
@@ -64,7 +63,7 @@
     margin-left: 5px;
     font-family: "Space Grotesk";
     font-weight: 700;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 0.8;
     letter-spacing: -3%;
     padding-top: 24px;
@@ -78,25 +77,21 @@
 
 
 /*! SECTION HERO */
-/* .container-hero-title {
-    max-width: 1200px;
+@media screen and (max-width: 767px) {
+.container-hero-title {
     position: relative;
 }
-
 .hero {
     padding-top: 120px;
     background-color: var(--color-dark-blue);
     transition: padding-bottom 0.3s ease;
-    position: relative;
-    padding-bottom: 300px;
-    overflow: visible;
+    padding-bottom: 120px;
 }
 
 .hero-name {
-    width: 893px;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
-    font-size: 72px;
+    font-size: 44px;
     line-height: 1.5;
     color: var(--color-white);
     margin: 0 auto;
@@ -105,10 +100,10 @@
 }
 
 .hero-text {
-    width: 893px;
+
     font-family: 'Plus Jakarta Sans';
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 300;
     line-height: 1.5;
     margin: 0 auto;
     text-align: center;
@@ -123,15 +118,14 @@
 }
 
 .hero-button-first {
-    width: 187px;
-    height: 52px;
+    height: 44px;
     border: 0;
     border-radius: 30px;
     color: var(--color-white);
     background-color: var(--color-iris);
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
 }
 
@@ -140,15 +134,14 @@
 }
 
 .hero-button-second {
-    width: 141px;
-    height: 52px;
+    height: 44px;
     border: 0;
     border-radius: 30px;
     background-color: var(--color-iris);
     color: var(--color-white);
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
     margin-bottom: 90px;
 }
@@ -156,26 +149,15 @@
 .hero-button-second:hover {
     background-color: var(--color-dark-gray);
 }
-
-.video-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 0;
-    overflow: visible;
-    transition: height 0.3s ease;
+.video-overlay{
+    display: none;
 }
 
-.video-overlay:hover {
-    height: 324px;
 }
 
-.video-hero {
-    width: 100%;
-    height: auto;
-    border-radius: 20px 20px 0 0;
-} */
+
+
+
 
 /*! SECTION FINANCES */
 /* .section-finances {
