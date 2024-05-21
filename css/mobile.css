@@ -45,6 +45,8 @@
     padding-bottom: 24px;
 }
 
+/* ______________________@MEDIA_______________________________ */
+
 @media screen and (max-width: 767px) {
     .container {
     max-width: 428px;
@@ -70,6 +72,9 @@
     height: 24px;
     }
 }
+
+
+
 /*! SECTION HERO */
 .container-hero-title {
     position: relative;
@@ -125,6 +130,9 @@
 .hero-button-second:hover {
     background-color: var(--color-dark-gray);
 }
+
+/* ______________________@MEDIA_______________________________ */
+
 @media screen and (max-width: 767px) {
 .hero {
     padding-bottom: 120px;
@@ -154,134 +162,154 @@
 
 
 /*! SECTION FINANCES */
-/* .section-finances {
-    background-color: var(--color-white);
-    position: relative;
-    z-index: 1;
-}
-
-.container-finances {
-    padding-top: 120px;
-    padding-bottom: 64px;
-}
-
-.finances-list {
-    display: flex;
-}
-
-.finances-item {
-    margin-right: 160px;
-}
-
-.finances-item:last-child {
-    margin-right: 0;
-}
-
+ .section-finances {
+     background-color: var(--color-white);
+     position: relative;
+     z-index: 1;
+ }
+ .container-finances {
+     padding-top: 120px;
+     padding-bottom: 64px;
+ }
+ .finances-list {
+     display: flex;
+ }
+ .finances-item:last-child {
+     margin-right: 0;
+ }
 .finances-name-first {
     font-family: "Plus Jakarta Sans";
-    font-size: 20px;
     font-weight: 600;
     line-height: 1.5;
     letter-spacing: -2%;
     color: var(--color-iris);
     margin-bottom: 12px;
 }
-
 .finances-name-second {
     font-family: "Plus Jakarta Sans";
-    font-size: 40px;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: -3%;
     color: var(--color-black-gray);
     margin-top: 0;
 }
-
 .finances-name-third {
     font-family: "Plus Jakarta Sans";
-    font-size: 40px;
     font-weight: 700;
     line-height: 1.5;
     letter-spacing: -3%;
     color: var(--color-black-gray);
     margin-top: 0;
-}
-
-
-.finances-item-text {
-    width: 480px;
-    align-self: flex-end;
 }
 
 .finances-text {
-
     font-family: "Plus Jakarta Sans";
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     color: var(--color-Mostly-desaturated-dark-blue);
-} */
-
-/* ___________________________________________ */
-/* .container-finances-description {
+}
+/*___________________________________________ */
+.container-finances-description {
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 120px;
-    width: 1200px;
-
 }
-
 .finances-list-description {
     display: flex;
-    gap: 24px;
 }
-
 .finances-item-description {
     height: 100%;
     width: 100%;
 }
-
 .finances-image {
     display: block;
     border-radius: 16px;
-
 }
-
-.container-item-card-finances {
-    padding-top: 24px;
-}
-
 .finances-name-description {
     font-family: "Plus Jakarta Sans";
-    font-size: 24px;
     font-weight: 600;
     line-height: 1.5;
     letter-spacing: -3%;
     color: #040815;
 }
-
 .finances-text-decription {
     font-family: "Plus Jakarta Sans";
-    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: -2%;
     color: var(--color-Mostly-desaturated-dark-blue);
 }
+/* ______________________@MEDIA_______________________________ */
 
+@media screen and (max-width: 767px){
+.container-finances {
+    padding-top: 80px;
+padding-bottom: 44px;
+    }
+.finances-item {
+    margin-right: 80px;
+}
+.finances-name-first {
+    font-size: 14px;
+}
+.finances-name-second {
+    font-size: 28px;
+}
+.finances-name-third {
+    font-size: 28px;
+}
+.finances-item-text {
+    width: 200px;
+    align-self: flex-end;
+}
+/*___________________________________________ */
+.container-finances-description {
+    padding-bottom: 80px;
+}
+.finances-list-description {
+    flex-direction: column;
+}
+.finances-image {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+.finances-list-description {
+    gap: 44px;
+}
+.container-item-card-finances {
+    padding-top: 12px;
+}
 .finances-name-description {
-    margin-bottom: 18px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.finances-text-decription {
+    font-size: 12px;
+}
 
 }
 
 
-.finances-item-description:first-child .finances-name-description {
-    margin-bottom: 12px;
-}
 
-.finances-item-description:last-child .finances-name-description {
-    margin-bottom: 12px;
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*! register section */
 /* .frame-register-section {
