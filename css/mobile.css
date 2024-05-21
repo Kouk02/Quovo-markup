@@ -13,31 +13,52 @@
     --color-black-gray: #040815;
     --color-sakura: #CEBEFE;
 }
-
-
 /*! HEADER */
-@media screen and (max-width: 767px) {
     .container {
-        max-width: 428px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 16px;
         padding-right: 16px;
-    }
-
+}
     .container-header {
         display: flex;
         margin: 0 auto;
         align-items: center;
         justify-content: space-between;
     }
+    .header {
+        border-bottom: 2px solid var(--color-dark-gray);
+        background-color: var(--color-dark-blue);
+}
+    .heared-icon {
+        fill: var(--color-quovo-gray);
+        width: 16px;
+        height: 24px;
+    }
 
+    .header-link {
+        display: inline-block;
+        color: var(--color-quovo-gray);
+        margin-left: 5px;
+        font-family: "Space Grotesk";
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0.8;
+        letter-spacing: -3%;
+        padding-top: 24px;
+        padding-bottom: 24px;
+
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 428px;
+    }
     .header-list,
     .login-list,
     .header-nav {
         display: none;
     }
-
     .button-burger-mobile {
         max-height: 32px;
         padding: 0;
@@ -46,35 +67,6 @@
         line-height: 0;
     }
 }
-.header {
-    border-bottom: 2px solid var(--color-dark-gray);
-    background-color: var(--color-dark-blue);
-}
-
-.heared-icon {
-    fill: var(--color-quovo-gray);
-    width: 16px;
-    height: 24px;
-}
-
-.header-link {
-    display: inline-block;
-    color: var(--color-quovo-gray);
-    margin-left: 5px;
-    font-family: "Space Grotesk";
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 0.8;
-    letter-spacing: -3%;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    
-}
-
-
-
-
-
 
 /*! SECTION HERO */
 @media screen and (max-width: 767px) {
