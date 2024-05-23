@@ -478,3 +478,124 @@
 .register-button-second:hover {
     background-color: var(--color-dark-gray);
 } */
+
+/*! Section stepper */
+/* .section-stepper {
+    background-color: var(--color-dark-blue);
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.stepper-container {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+
+
+.stepper-container-image {
+    width: 588px;
+}
+
+.stepper-image {
+    border-radius: 12px;
+}
+
+
+.container-stepper-descriptions {
+    width: 522px;
+}
+
+.stepper-name-work {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--color-iris);
+    margin-bottom: 12px;
+    letter-spacing: -2%;
+}
+
+.stepper-name-step {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--color-white);
+    margin-bottom: 24px;
+    letter-spacing: -3%;
+}
+
+.stepper-text-descriptions {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--color-Grayish-blue);
+    margin-bottom: 68px;
+    letter-spacing: -2%;
+}
+
+.stepper-list-step {
+    display: flex;
+    gap: 12px;
+    background-color: var(--color-dark-gray);
+    border-radius: 12px;
+    padding: 32px 0px 32px 32px;
+}
+
+.stepper-step-text {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--color-white);
+    letter-spacing: -2%;
+}
+
+.stepper-step-text:not(:last-child) {
+    margin-bottom: 58px;
+}
+
+.steps-cirle {
+    width: 46px;
+    height: 218px;
+}
+
+.cirle-steps {
+    width: 45px;
+    height: 46px;
+    border-radius: 100px;
+    background-color: var(--color-iris);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: var(--color-white);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: -2%;
+}
+
+.cirle-steps:last-child {
+    background-color: var(--color-white);
+    color: var(--color-dark-gray);
+}
+
+.strip-first {
+    height: 40px;
+    width: 2px;
+    background-color: #7C5CFC;
+    margin: auto;
+}
+
+.strip-second {
+    height: 40px;
+    width: 2px;
+    margin: auto;
+    border-left: 2px dashed var(--color-white);
+    border-spacing: 4px;
+} */
