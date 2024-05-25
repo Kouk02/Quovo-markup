@@ -594,7 +594,6 @@ padding-bottom: 44px;
 }
 .productivity-buttons-container {
     background-color: var(--color-Light-grayish-blue);
-    display: inline-block;
     border-radius: 30px;
 }
 .productivity-button-first {
@@ -635,6 +634,27 @@ padding-bottom: 44px;
     line-height: 1.5;
     color: var(--color-dark-blue);
 }
+.productivity-button-first-one {
+    border-radius: 30px;
+    border: none;
+    background-color: var(--color-Light-grayish-blue);
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    color: var(--color-Grayish-blue);
+}
+.productivity-button-second-two {
+    border-radius: 30px;
+    border: 1px var(--color-iris);
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    background-color: var(--color-iris);
+    color: var(--color-white);
+}
 /* ______________________@MEDIA_______________________________ */
 @media screen and (max-width: 767px) {
 .section-productivity {
@@ -659,9 +679,11 @@ padding-bottom: 44px;
 .productivity-buttons-container {
     height: 44px;
     margin-bottom: 32px;
+    width: 210px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .productivity-button-first {
-    width: 100px;
     height: 44px;
     font-size: 12px;
 }
@@ -689,78 +711,20 @@ padding-bottom: 44px;
     width: 14px;
     height: 14px;
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .icon-productivity-second {
+.icon-productivity-second {
     fill: var(--color-Vivid-red);
-    width: 20px;
-    height: 20px;
+    width: 14px;
+    height: 14px;
 }
-
 .productivity-button-first-one {
-    width: 169px;
-    height: 52px;
-    border-radius: 30px;
-    border: none;
-    background-color: var(--color-Light-grayish-blue);
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: -2%;
-    color: var(--color-Grayish-blue);
+    height: 44px;
+    font-size: 12px;
 }
-
 .productivity-button-second-two {
-    width: 195px;
-    height: 52px;
-    border-radius: 30px;
-    border: 1px var(--color-iris);
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: -2%;
-    background-color: var(--color-iris);
-    color: var(--color-white);
-}  */
+    height: 44px;
+    font-size: 12px;
+}
+}
 
 /*! Section profile */
 /* .section-profile {
