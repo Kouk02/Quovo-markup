@@ -287,6 +287,7 @@ padding-bottom: 44px;
 }
 .finances-text-decription {
     font-size: 12px;
+    text-align: center;
 }
 }
 
@@ -761,13 +762,16 @@ padding-bottom: 44px;
     color: var(--color-white);
 }  */
 
-
 /*! Section profile */
 /* .section-profile {
     background-color: var(--color-dark-blue);
-    padding: 120px 0px;
 }
-
+/* ______________________@MEDIA_______________________________ */
+/* @media screen and (max-width: 767px) {
+.section-profile {
+    padding: 80px 0px;
+    }
+}
 
 .container-profile-first {
     display: flex;
@@ -776,7 +780,6 @@ padding-bottom: 44px;
     align-items: center;
     margin-bottom: 80px;
 }
-
 .name-profile-first {
     font-family: 'Plus Jakarta Sans';
     font-size: 20px;
@@ -785,7 +788,6 @@ padding-bottom: 44px;
     color: var(--color-iris);
     margin-bottom: 12px;
 }
-
 .name-profile-second {
     font-family: 'Plus Jakarta Sans';
     font-size: 40px;
@@ -794,7 +796,6 @@ padding-bottom: 44px;
     color: var(--color-white);
     margin-bottom: 24px;
 }
-
 .text-profile {
     font-family: 'Plus Jakarta Sans';
     font-size: 20px;
@@ -802,15 +803,11 @@ padding-bottom: 44px;
     line-height: 1.5;
     color: var(--color-Grayish-blue);
 }
-
-
-
 .list-profile {
     display: flex;
     gap: 24px;
     margin-bottom: 50px;
 }
-
 .profile-text-container {
     width: 320px;
     height: 96px;
@@ -831,7 +828,6 @@ padding-bottom: 44px;
     height: 70px;
     border-radius: 12px;
 }
-
 .text-profile-item {
     font-family: 'Plus Jakarta Sans';
     font-size: 16px;
@@ -840,7 +836,6 @@ padding-bottom: 44px;
     color: var(--color-Light-grayish-blue);
     letter-spacing: -2%;
 }
-
 .profile-card {
     display: flex;
     flex-direction: row;
@@ -850,7 +845,6 @@ padding-bottom: 44px;
     padding-top: 32px;
     margin-top: 90px;
 }
-
 .name-profile-item {
     font-family: 'Plus Jakarta Sans';
     font-size: 18px;
@@ -858,7 +852,6 @@ padding-bottom: 44px;
     line-height: 1.5;
     color: var(--color-white);
 }
-
 .profile-text-card {
     font-family: 'Plus Jakarta Sans';
     font-size: 14px;
@@ -866,14 +859,11 @@ padding-bottom: 44px;
     line-height: 1.5;
     color: var(--color-gray);
 }
-
 .container-profile-button {
     display: flex;
     justify-content: center;
     gap: 24px;
 }
-
-
 .profile-button {
     display: flex;
     width: 48px;
@@ -903,10 +893,7 @@ padding-bottom: 44px;
 
 .profile-button:hover .profile-button-icon {
     fill: var(--color-white);
-}
-
- */
-
+} */ 
 /*! Footer */
 
 /* .section-footer {
