@@ -727,26 +727,17 @@ padding-bottom: 44px;
 }
 
 /*! Section profile */
-/* .section-profile {
+.section-profile {
     background-color: var(--color-dark-blue);
 }
-/* ______________________@MEDIA_______________________________ */
-/* @media screen and (max-width: 767px) {
-.section-profile {
-    padding: 80px 0px;
-    }
-}
-
 .container-profile-first {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 80px;
 }
 .name-profile-first {
     font-family: 'Plus Jakarta Sans';
-    font-size: 20px;
     font-weight: 600;
     line-height: 1.5;
     color: var(--color-iris);
@@ -754,47 +745,30 @@ padding-bottom: 44px;
 }
 .name-profile-second {
     font-family: 'Plus Jakarta Sans';
-    font-size: 40px;
     font-weight: 700;
     line-height: 1.5;
     color: var(--color-white);
-    margin-bottom: 24px;
 }
 .text-profile {
     font-family: 'Plus Jakarta Sans';
-    font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
     color: var(--color-Grayish-blue);
 }
 .list-profile {
     display: flex;
-    gap: 24px;
-    margin-bottom: 50px;
 }
-.profile-text-container {
-    width: 320px;
-    height: 96px;
-    padding-bottom: 90px;
-    margin-bottom: 32px;
-}
-
 .item-profile {
     width: 100%;
     height: 100%;
     background-color: var(--color-dark-gray);
     border-radius: 12px;
-    padding: 32px 32px;
 }
-
 .img-profile-item {
-    width: 70px;
-    height: 70px;
     border-radius: 12px;
 }
 .text-profile-item {
     font-family: 'Plus Jakarta Sans';
-    font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     color: var(--color-Light-grayish-blue);
@@ -807,18 +781,15 @@ padding-bottom: 44px;
     align-items: center;
     border-top: 1px solid var(--color-Grayish-blue);
     padding-top: 32px;
-    margin-top: 90px;
 }
 .name-profile-item {
     font-family: 'Plus Jakarta Sans';
-    font-size: 18px;
     font-weight: 700;
     line-height: 1.5;
     color: var(--color-white);
 }
 .profile-text-card {
     font-family: 'Plus Jakarta Sans';
-    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     color: var(--color-gray);
@@ -843,21 +814,79 @@ padding-bottom: 44px;
     justify-content: center;
     align-items: center;
 }
-
 .profile-button-icon {
     width: 18px;
     height: 18px;
     fill: var(--color-gray);
 }
-
 .profile-button:hover {
     background-color: var(--color-dark-gray);
 
 }
-
 .profile-button:hover .profile-button-icon {
     fill: var(--color-white);
-} */ 
+}
+/* ______________________@MEDIA_______________________________ */
+ @media screen and (max-width: 767px) {
+.section-profile {
+    padding: 80px 0px;
+    }
+.container-profile-first {
+    margin-bottom: 40px;    
+}
+.name-profile-first {
+    font-size: 14px;
+}
+.name-profile-second {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.text-profile {
+    font-size: 12px;
+    text-align: center;
+}
+.list-profile {
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+.profile-text-container {
+    width: 100%;
+    height: 100%;
+}
+.item-profile {
+    padding: 16px 16px;
+}
+.img-profile-item {
+    width: 60px;
+    height: 60px;
+}
+.text-profile-item {
+    text-align: center;
+    font-size: 12px;
+}
+.profile-card {
+    margin-top: 40px;
+}
+.name-profile-item {
+    font-size: 14px;
+}
+.profile-text-card {
+    font-size: 12px;
+}
+.container-profile-button {
+    gap: 12px;
+}
+.profile-button {
+    width: 38px;
+    height: 38px;
+}
+.profile-button-icon {
+    width: 16px;
+    height: 16px;
+}
+}
+
 /*! Footer */
 
 /* .section-footer {
