@@ -1174,3 +1174,48 @@
 
 
 
+
+
+
+
+
+
+
+
+
+/* .container-footer-end {
+    padding-top: 32px;
+    border-top: 1px solid var(--color-sakura);
+}
+
+.footer-link-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.item-footer-link {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: -2%;
+    color: var(--color-dark-gray);
+}
+
+.item-footer-link:last-child {
+    color: var(--color-Mostly-desaturated-dark-blue);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: auto;
+    letter-spacing: -2%;
+}
+
+
+.slash {
+    font-family: "Plus Jakarta Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+} */
