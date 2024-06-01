@@ -20,20 +20,19 @@
     padding-left: 16px;
     padding-right: 16px;
 }
-    .container-header {
+.container-header {
     display: flex;
     margin: 0 auto;
     align-items: center;
-    justify-content: space-between;
-    }
-    .header {
+}
+.header {
     border-bottom: 2px solid var(--color-dark-gray);
     background-color: var(--color-dark-blue);
-}
-    .heared-icon {
+    }
+.heared-icon {
     fill: var(--color-quovo-gray);
     }
-    .header-link {
+.header-link {
     display: inline-block;
     color: var(--color-quovo-gray);
     margin-left: 5px;
@@ -59,6 +58,9 @@
     .header-nav {
     display: none;
     }
+.container-header {
+    justify-content: space-between;
+}
     .button-burger-mobile {
     max-height: 32px;
     padding: 0;
