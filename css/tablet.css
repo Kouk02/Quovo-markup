@@ -84,85 +84,39 @@
 
 
 /*! SECTION HERO */
-/* .container-hero-title {
-    max-width: 1200px;
-    position: relative;
-}
-
 .hero {
-    padding-top: 120px;
-    background-color: var(--color-dark-blue);
     transition: padding-bottom 0.3s ease;
     position: relative;
-    padding-bottom: 300px;
     overflow: visible;
 }
-
+/* ______________________@MEDIA_______________________________ */
+@media screen and (min-width: 768px) {
+.container-hero-title {
+    position: relative;
+}
+.hero {
+    padding-top: 80px;
+    padding-bottom: 300px;
+}
 .hero-name {
-    width: 893px;
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 1.5;
-    color: var(--color-white);
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 24px;
+    font-size: 54px;
 }
-
 .hero-text {
-    width: 893px;
-    font-family: 'Plus Jakarta Sans';
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 1.5;
-    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 30px;
     text-align: center;
-    color: var(--color-Grayish-blue);
-    margin-bottom: 40px;
 }
-
-.container-hero {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
 .hero-button-first {
-    width: 187px;
-    height: 52px;
-    border: 0;
-    border-radius: 30px;
-    color: var(--color-white);
-    background-color: var(--color-iris);
-    font-family: "Plus Jakarta Sans";
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
+    width: 157px;
+    height: 48px;
+    font-size: 14px;
 }
-
-.hero-button-first:hover {
-    background-color: var(--color-dark-gray);
-}
-
 .hero-button-second {
-    width: 141px;
-    height: 52px;
-    border: 0;
-    border-radius: 30px;
-    background-color: var(--color-iris);
-    color: var(--color-white);
-    font-family: "Plus Jakarta Sans";
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
+    width: 111px;
+    height: 48px;
+    font-size: 14px;
     margin-bottom: 90px;
 }
-
-.hero-button-second:hover {
-    background-color: var(--color-dark-gray);
-}
-
 .video-overlay {
     position: absolute;
     bottom: 0;
@@ -172,18 +126,15 @@
     overflow: visible;
     transition: height 0.3s ease;
 }
-
 .video-overlay:hover {
     height: 324px;
 }
-
 .video-hero {
     width: 100%;
     height: auto;
     border-radius: 20px 20px 0 0;
-} */
-
-
+} 
+}
 /*! SECTION FINANCES */
 /* .section-finances {
     background-color: var(--color-white);
