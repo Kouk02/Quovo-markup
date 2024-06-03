@@ -1,8 +1,7 @@
 
 /*! HEADER */
-
 /* ______________________@MEDIA_______________________________ */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1157px) {
 .container {
     width: 768px;
 }
@@ -90,7 +89,7 @@
     overflow: visible;
 }
 /* ______________________@MEDIA_______________________________ */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1157px) {
 .container-hero-title {
     position: relative;
 }
@@ -136,136 +135,57 @@
 } 
 }
 /*! SECTION FINANCES */
-/* .section-finances {
-    background-color: var(--color-white);
-    position: relative;
-    z-index: 1;
-}
-
-.container-finances {
-    padding-top: 120px;
-    padding-bottom: 64px;
-}
-
-.finances-list {
-    display: flex;
-}
-
+/* ______________________@MEDIA_______________________________ */
+@media screen and (max-width: 1157px) {
 .finances-item {
-    margin-right: 160px;
+    margin-right: 120px;
 }
-
-.finances-item:last-child {
-    margin-right: 0;
-}
-
 .finances-name-first {
-    font-family: "Plus Jakarta Sans";
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: -2%;
-    color: var(--color-iris);
-    margin-bottom: 12px;
+    font-size: 16px;
 }
-
 .finances-name-second {
-    font-family: "Plus Jakarta Sans";
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.5;
-    letter-spacing: -3%;
-    color: var(--color-black-gray);
-    margin-top: 0;
+    font-size: 32px;
 }
-
 .finances-name-third {
-    font-family: "Plus Jakarta Sans";
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.5;
-    letter-spacing: -3%;
-    color: var(--color-black-gray);
-    margin-top: 0;
+    font-size: 32px;
 }
-
-
 .finances-item-text {
-    width: 480px;
-    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
-
 .finances-text {
-
-    font-family: "Plus Jakarta Sans";
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--color-Mostly-desaturated-dark-blue);
+    font-size: 16px;
 }
-
-*/
-
-/*___________________________________________ */
-/* .container-finances-description {
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 120px;
-    width: 1200px;
-
-}
-
 .finances-list-description {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
-
-.finances-item-description {
-    height: 100%;
-    width: 100%;
+.container-finances-description {
+    padding-bottom: 100px;
 }
-
-.finances-image {
-    display: block;
-    border-radius: 16px;
-
+ .container-finances {
+    padding-top: 100px;
+ }
 }
-
+/*___________________________________________ */
 .container-item-card-finances {
     padding-top: 24px;
 }
-
 .finances-name-description {
-    font-family: "Plus Jakarta Sans";
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 1.5;
-    letter-spacing: -3%;
-    color: #040815;
+    font-size: 20px;
+    margin-bottom: 12px;
 }
-
 .finances-text-decription {
-    font-family: "Plus Jakarta Sans";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
-    letter-spacing: -2%;
-    color: var(--color-Mostly-desaturated-dark-blue);
+    font-size: 14px;
 }
-
-.finances-name-description {
-    margin-bottom: 18px;
-
-}
-
 
 .finances-item-description:first-child .finances-name-description {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
-
 .finances-item-description:last-child .finances-name-description {
-    margin-bottom: 12px;
-}  */
+    margin-bottom: 10px;
+}  
 
 
 /*! register section */
