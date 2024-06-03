@@ -136,12 +136,10 @@
 .hero-button-second:hover {
     background-color: var(--color-dark-gray);
 }
-
 /* ______________________@MEDIA_______________________________ */
-
 @media screen and (max-width: 767px) {
 .hero {
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 }
 .hero-name {
     font-size: 44px;
@@ -207,7 +205,6 @@
     color: var(--color-black-gray);
     margin-top: 0;
 }
-
 .finances-text {
     font-family: "Plus Jakarta Sans";
     font-size: 14px;
@@ -247,7 +244,7 @@
 @media screen and (max-width: 767px){
 .container-finances {
     padding-top: 80px;
-padding-bottom: 44px;
+    padding-bottom: 44px;
     }
 .finances-item {
     margin-right: 40px;
