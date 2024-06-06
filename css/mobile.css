@@ -490,7 +490,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
     color: var(--color-white);
     font-weight: 600;
     font-size: 14px;
@@ -563,7 +562,7 @@
     margin-bottom: 48px;
 }
 .stepper-step-text:nth-child(2){
-    margin-bottom: 22px;
+    margin-bottom: 42px;
 }
 .setps-container{
     margin-left: auto;
