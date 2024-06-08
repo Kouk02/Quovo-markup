@@ -363,6 +363,19 @@
     width: 16px;
     height: 16px;
 }
+.icon-productivity-second {
+    fill: var(--color-Vivid-red);
+    width: 16px;
+    height: 16px;
+}
+.productivity-button-first-one {
+    height: 48px;
+    font-size: 14px;
+}
+.productivity-button-second-two {
+    height: 48px;
+    font-size: 14px;
+}
 }
 /*! Section profile */
 /* .section-profile {
