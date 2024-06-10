@@ -1028,16 +1028,13 @@ transition: all 0.8s ease 0s;
 transform: translate(-120%, 0px);
 opacity: 0;
 }
-
 .button-up:hover {
 background-color: var(--color-sakura);
 }
-
 .button-up._anim-items {
 transform: translate(0, 0);
 opacity: 1;
 }
-
 .button-up._inactive {
 transform: translate(120%, 0px);
 opacity: 0;
@@ -1067,11 +1064,9 @@ opacity: 0;
         transform: translateY(0);
     }
 }
-
 .button-up.scroll-up {
     animation: bounceUp 0.3s ease;
 }
-
 .button-up.scroll-down {
     animation: bounceDown 0.3s ease;
 }

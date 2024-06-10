@@ -26,3 +26,10 @@ function scrollFunction() {
 
     prevScrollTop = scrollTop;
 }
+
+function scrollToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
