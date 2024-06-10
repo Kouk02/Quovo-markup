@@ -1044,6 +1044,38 @@ opacity: 0;
 }
 
 
+
+@keyframes bounceUp {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes bounceDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.button-up.scroll-up {
+    animation: bounceUp 0.3s ease;
+}
+
+.button-up.scroll-down {
+    animation: bounceDown 0.3s ease;
+}
+
 /* ______________________@MEDIA_______________________________ */
 @media screen and (max-width: 767px) {
 .icon-up-arrow-button {
