@@ -1,27 +1,39 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const element = document.querySelector('.your-element');
-  const fadeInLeft = 'animate__fadeInLeft';
-  const fadeOutRight = 'animate__fadeOutRight';
+let animItems = document.querySelectorAll('._anim-items');
 
-  function isElementInViewport(el) {
-    const rect = el.getBoundingClientRect();
-    return (
-      rect.top >= 0 &&
-      rect.left >= 0 &&
-      rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-    );
-  }
+if (animItems.length > 0) {
+    window.addEventListener('scroll', animOnScroll);
 
-  function handleScroll() {
-    if (isElementInViewport(element)) {
-      element.classList.add(fadeInLeft);
-      element.classList.remove(fadeOutRight);
-    } else {
-      element.classList.remove(fadeInLeft);
-      element.classList.add(fadeOutRight);
+    function animOnScroll() {
+        for (let index = 0; index < animItems.length; index++) {
+            const animItem = animItems[index];
+            const animItemHeight = animItem.offsetHeight;
+            const animItemOffset = offset(animItem).top;
+            const animStart = 4;
+            
+            let animItemPoint = window.innerHeight - animItemHeight / animStart;
+
+            if (animItemHeight > window.innerHeight) {
+                animItemPoint = window.innerHeight - window.innerHeight / animStart;
+            }
+
+            if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
+                animItem.classList.add('_active');
+                animItem.classList.remove('_inactive');
+            } else if (pageYOffset < animItemOffset - animItemHeight || pageYOffset > (animItemOffset + animItemHeight)) {
+                animItem.classList.remove('_active');
+                animItem.classList.add('_inactive');
+            }
+        }
     }
-  }
 
-  window.addEventListener('scroll', handleScroll);
-});
+    function offset(el) {
+        const rect = el.getBoundingClientRect(),
+              scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+              scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        return { top: rect.top + scrollTop, left: rect.left + scrollLeft }
+    }
+
+    setTimeout(() => {
+        animOnScroll();
+    }, 300);
+}
