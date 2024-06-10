@@ -378,328 +378,72 @@
 }
 }
 /*! Section profile */
-/* .section-profile {
-    background-color: var(--color-dark-blue);
-    padding: 120px 0px;
-}
 
-.container-profile-first {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 80px;
-}
 
-.name-profile-first {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.5;
-    color: var(--color-iris);
-    margin-bottom: 12px;
-}
-
-.name-profile-second {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.5;
-    color: var(--color-white);
-    margin-bottom: 24px;
-}
-
-.text-profile {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--color-Grayish-blue);
-}
-
-.list-profile {
-    display: flex;
-    gap: 24px;
-    margin-bottom: 50px;
-}
-
-.profile-text-container {
-    width: 320px;
-    height: 96px;
-    padding-bottom: 90px;
-    margin-bottom: 32px;
-}
-
-.item-profile {
-    width: 100%;
-    height: 100%;
-    background-color: var(--color-dark-gray);
-    border-radius: 12px;
-    padding: 32px 32px;
-}
-
-.img-profile-item {
-    width: 70px;
-    height: 70px;
-    border-radius: 12px;
-}
-
-.text-profile-item {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: var(--color-Light-grayish-blue);
-    letter-spacing: -2%;
-}
-
-.profile-card {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    align-items: center;
-    border-top: 1px solid var(--color-Grayish-blue);
-    padding-top: 32px;
-    margin-top: 90px;
-}
-
-.name-profile-item {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.5;
-    color: var(--color-white);
-}
-
-.profile-text-card {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--color-gray);
-}
-
-.container-profile-button {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
-}
-
-.profile-button {
-    display: flex;
-    width: 48px;
-    height: 50px;
-    border: 0;
-    border-radius: 100px;
-    color: var(--color-white);
-    background-color: var(--color-iris);
-    font-family: "Plus Jakarta Sans";
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    justify-content: center;
-    align-items: center;
-}
-
-.profile-button-icon {
-    width: 18px;
-    height: 18px;
-    fill: var(--color-gray);
-}
-
-.profile-button:hover {
-    background-color: var(--color-dark-gray);
-
-}
-
-.profile-button:hover .profile-button-icon {
-    fill: var(--color-white);
-}
-
-.icon-productivity-second {
-    fill: var(--color-Vivid-red);
-    width: 20px;
-    height: 20px;
-}
-
-.productivity-button-first-one {
-    width: 169px;
-    height: 52px;
-    border-radius: 30px;
-    border: none;
-    background-color: var(--color-Light-grayish-blue);
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: -2%;
-    color: var(--color-Grayish-blue);
-}
-
-.productivity-button-second-two {
-    width: 195px;
-    height: 52px;
-    border-radius: 30px;
-    border: 1px var(--color-iris);
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: -2%;
-    background-color: var(--color-iris);
-    color: var(--color-white);
-} */
-
-/*! Section profile */
-/* .section-profile {
-    background-color: var(--color-dark-blue);
-} */
 
 /* ______________________@MEDIA_______________________________ */
-/* @media screen and (max-width: 767px) {
-    .section-profile {
-        padding: 80px 0px;
-    }
+@media screen and (min-width: 768px) {
+.section-profile {
+    padding: 100px 0px;
 }
-
 .container-profile-first {
+    margin-bottom: 60px;
+}
+.container-profile-second{
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 80px;
 }
-
 .name-profile-first {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 1.5;
-    color: var(--color-iris);
+    font-size: 16px;
     margin-bottom: 12px;
 }
-
 .name-profile-second {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 1.5;
-    color: var(--color-white);
-    margin-bottom: 24px;
+    font-size: 30px;
+    margin-bottom: 16px;
 }
-
 .text-profile {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--color-Grayish-blue);
+    font-size: 14px;
 }
-
 .list-profile {
     display: flex;
-    gap: 24px;
-    margin-bottom: 50px;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
 }
-
-.profile-text-container {
-    width: 320px;
-    height: 96px;
-    padding-bottom: 90px;
-    margin-bottom: 32px;
-}
-
 .item-profile {
-    width: 100%;
-    height: 100%;
-    background-color: var(--color-dark-gray);
-    border-radius: 12px;
-    padding: 32px 32px;
+    width: 500px;
+    padding: 24px 24px;
 }
-
 .img-profile-item {
     width: 70px;
     height: 70px;
-    border-radius: 12px;
 }
-
 .text-profile-item {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    color: var(--color-Light-grayish-blue);
-    letter-spacing: -2%;
-}
-
-.profile-card {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    align-items: center;
-    border-top: 1px solid var(--color-Grayish-blue);
-    padding-top: 32px;
-    margin-top: 90px;
-}
-
-.name-profile-item {
-    font-family: 'Plus Jakarta Sans';
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.5;
-    color: var(--color-white);
-}
-
-.profile-text-card {
-    font-family: 'Plus Jakarta Sans';
     font-size: 14px;
-    font-weight: 400;
-    line-height: 1.5;
-    color: var(--color-gray);
+    text-align: center;
 }
-
-.container-profile-button {
-    display: flex;
-    justify-content: center;
-    gap: 24px;
+.profile-card {
+    gap: 16px;
+    margin-top: 60px;
 }
-
-.profile-button {
-    display: flex;
-    width: 48px;
-    height: 50px;
-    border: 0;
-    border-radius: 100px;
-    color: var(--color-white);
-    background-color: var(--color-iris);
-    font-family: "Plus Jakarta Sans";
-    font-weight: 600;
+.name-profile-item {
     font-size: 16px;
-    line-height: 1.5;
-    justify-content: center;
-    align-items: center;
 }
-
+.profile-text-card {
+    font-size: 14px;
+}
+.container-profile-button {
+    gap: 16px;
+}
+.profile-button {
+    width: 42px;
+    height: 42px;
+}
 .profile-button-icon {
     width: 18px;
     height: 18px;
-    fill: var(--color-gray);
 }
-
-.profile-button:hover {
-    background-color: var(--color-dark-gray);
-
 }
-
-.profile-button:hover .profile-button-icon {
-    fill: var(--color-white);
-}
-
-
-
- */
-
-
  /*! Footer */
 
  /* .section-footer {

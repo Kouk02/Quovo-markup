@@ -754,9 +754,7 @@
     line-height: 1.5;
     color: var(--color-Grayish-blue);
 }
-.list-profile {
-    display: flex;
-}
+
 .item-profile {
     width: 100%;
     height: 100%;
@@ -845,6 +843,7 @@
     text-align: center;
 }
 .list-profile {
+    display: flex;
     flex-direction: column;
     gap: 16px;
     margin-bottom: 30px;
