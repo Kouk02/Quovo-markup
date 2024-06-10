@@ -1012,6 +1012,45 @@ border-top: 1px solid var(--color-sakura);
 }
 }
 
+/*! buttonUp */
+.button-up {
+display: none;
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 99;
+border: 12px;
+outline: none;
+background-color: var(--color-iris);
+cursor: pointer;
+border-radius: 50px;
+transition: all 0.8s ease 0s;
+transform: translate(-120%, 0px);
+opacity: 0;
+}
+
+.button-up:hover {
+background-color: var(--color-sakura);
+}
+
+.button-up._anim-items {
+transform: translate(0, 0);
+opacity: 1;
+}
+
+.button-up._inactive {
+transform: translate(120%, 0px);
+opacity: 0;
+}
 
 
-
+/* ______________________@MEDIA_______________________________ */
+@media screen and (max-width: 767px) {
+.icon-up-arrow-button {
+    width: 16px;
+    height: 16px;
+}
+.button-up {
+    padding: 8px;
+}
+}
