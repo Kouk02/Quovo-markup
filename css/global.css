@@ -94,7 +94,7 @@ button {
 
 
 ._anim-items-logo {
-    transform: translate(-120%, 0px);
+    transform: translate(0px, -40%);
     opacity: 0;
     transition: all 0.8s ease 0s;
 }
