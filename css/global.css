@@ -91,6 +91,24 @@ button {
     opacity: 1;
 }
 
+
+
+._anim-items-logo {
+    transform: translate(-120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+._inactive-logo {
+    transform: translate(0px, -40%);
+    opacity: 0;
+}
+
+._active-logo {
+    transform: translate(0px, 0%);
+    opacity: 1;
+}
+
 /* .container {
     width: 1200px;
     margin-left: auto;
