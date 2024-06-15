@@ -1,12 +1,10 @@
-/* @media screen and (min-width: 1157px) {
 
-} */
 
 /*! HEADER */
-/* @media screen and (min-width: 768px) {
+@media screen and (min-width: 1157px) {
     .container-header {
         display: flex;
-        max-width: 1440px;
+        justify-content: center;
         padding: 0 15px;
         margin: 0 auto;
     }
@@ -22,7 +20,9 @@
         gap: 32px;
 
     }
-
+.header-list-item{
+    font-size: 18px;
+}
     .nav-link {
         color: var(--color-white);
     }
@@ -95,9 +95,10 @@
         text-align: justify;
         color: var(--color-white);
     }
-
-
-} */
+.button-burger-mobile{
+    display: none;
+}
+}
 
 
 /*! SECTION HERO */

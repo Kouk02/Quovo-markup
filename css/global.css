@@ -108,10 +108,10 @@ button {
     transform: translate(0px, 0%);
     opacity: 1;
 }
-
-/* .container {
+@media screen and (min-width: 1157px) {
+.container {
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
-} */
-
+} 
+}
