@@ -1,7 +1,5 @@
-
-
 /*! HEADER */
-@media screen and (min-width: 1157px) {
+/* @media screen and (min-width: 1157px) {
     .container-header {
         display: flex;
         justify-content: center;
@@ -98,7 +96,7 @@
 .button-burger-mobile{
     display: none;
 }
-}
+}  */
 
 
 /*! SECTION HERO */
