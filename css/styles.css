@@ -1,12 +1,11 @@
 /*! HEADER */
-/* @media screen and (min-width: 1157px) {
+ @media screen and (min-width: 1157px) {
     .container-header {
         display: flex;
         justify-content: center;
         padding: 0 15px;
         margin: 0 auto;
     }
-
     .header-nav {
         display: flex;
         align-items: center;
@@ -16,13 +15,13 @@
         display: flex;
         align-items: center;
         gap: 32px;
-
     }
 .header-list-item{
     font-size: 18px;
 }
     .nav-link {
         color: var(--color-white);
+        white-space: nowrap;
     }
 
     .nav-link:hover {
@@ -96,7 +95,7 @@
 .button-burger-mobile{
     display: none;
 }
-}  */
+}  
 
 
 /*! SECTION HERO */
