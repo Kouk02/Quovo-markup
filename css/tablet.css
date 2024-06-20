@@ -45,7 +45,7 @@
 }
 
 /* ______________________@MEDIA_______________________________ */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 .container-header {
     padding: 0 15px;
     margin: 0 auto;
@@ -89,18 +89,31 @@
 
 
 /*! SECTION HERO */
-/* ______________________@MEDIA_______________________________ */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
-.container-hero-title {
-    position: relative;
+.video-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    overflow: visible;
+    transition: height 0.3s ease;
 }
+.video-overlay:hover {
+    height: 324px;
+}
+.video-hero {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+}
+/* ______________________@MEDIA_______________________________ */
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 .hero {
-    transition: padding-bottom 0.3s ease;
     position: relative;
     overflow: visible;
     padding-top: 80px;
     padding-bottom: 120px;
-}
+}   
 .hero-name {
     font-size: 54px;
 }
@@ -120,23 +133,7 @@
     font-size: 14px;
     margin-bottom: 90px;
 }
-.video-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 0;
-    overflow: visible;
-    transition: height 0.3s ease;
-}
-.video-overlay:hover {
-    height: 324px;
-}
-.video-hero {
-    width: 100%;
-    height: auto;
-    border-radius: 20px 20px 0 0;
-} 
+
 }
 /*! SECTION FINANCES */
 
@@ -145,7 +142,7 @@
     padding-top: 24px;
 }
 /* ______________________@MEDIA_______________________________ */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 .container-finances {
     padding-top: 100px;
     }
@@ -207,7 +204,7 @@
     justify-content: center;
 }
 /* ______________________@MEDIA_______________________________ */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 .frame-register-section {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -262,7 +259,7 @@
 
 /*! Section stepper */
 /* ______________________@MEDIA_______________________________ */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 .section-stepper {
         padding-bottom: 100px;
         padding-top: 100px;
@@ -313,7 +310,7 @@
     border-radius: 12px;
 }
 /* ______________________@MEDIA_______________________________ */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 .section-productivity {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -385,7 +382,7 @@
 }
 /*! Section profile */
 /* ______________________@MEDIA_______________________________ */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 .section-profile {
     padding: 100px 0px;
 }
@@ -455,7 +452,7 @@
     gap: 16px;
 }
  /* ______________________@MEDIA_______________________________ */
- @media screen and (min-width: 768px) and (max-width: 1157px) {
+ @media screen and (min-width: 768px) and (max-width: 1200px) {
 .section-footer {
         padding: 100px 0px;
     }
@@ -530,7 +527,7 @@
 
 /*! buttonUp */
 /* ______________________@MEDIA_______________________________ */
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
 .icon-up-arrow-button {
         width: 20px;
         height: 20px;

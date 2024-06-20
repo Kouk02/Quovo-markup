@@ -57,30 +57,26 @@
 }
 }
 /*! SECTION HERO */
-.container-hero-title {
-    position: relative;
-}
 .hero {
     padding-top: 120px;
     background-color: var(--color-dark-blue);
     transition: padding-bottom 0.3s ease;
+}
+.container-hero-title {
+    position: relative;
+    text-align: center;
 }
 .hero-name {
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     line-height: 1.5;
     color: var(--color-white);
-    margin: 0 auto;
-    text-align: center;
     margin-bottom: 24px;
 }
-
 .hero-text{
     font-family: 'Plus Jakarta Sans';
     font-weight: 300;
     line-height: 1.5;
-    margin: 0 auto;
-    text-align: center;
     color: var(--color-Grayish-blue);
 }
 .container-hero {
