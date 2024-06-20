@@ -1,8 +1,20 @@
 /*! HEADER */
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-link {
+    color: var(--color-quovo-gray);
+    margin-left: 10px;
+    font-family: "Space Grotesk";
+    font-weight: 700;
+    line-height: 0.8;
+    letter-spacing: -3%;
+    align-items: center;
+}
 .nav-link {
     color: var(--color-white);
 }
-
 .nav-link:hover {
     color: var(--color-iris);
 }
@@ -14,20 +26,26 @@
 .nav-link-login:hover {
     color: var(--color-iris);
 }
+
+.header-button {
+    border-radius: 30px;
+    border: 0;
+    background-color: var(--color-iris);
+}
+.header-button:hover {
+    background-color: var(--color-dark-gray);
+}
+.header-button-text {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: -2%;
+    text-align: justify;
+    color: var(--color-white);
+}
+
 /* ______________________@MEDIA_______________________________ */
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-.header-nav {
-    display: flex;
-    align-items: center;
-}
-.login-list {
-    display: flex;
-    align-items: center;
-    gap: 32px;
-}
-.button-burger-mobile{
-    display: none;
-}
 .container-header {
     padding: 0 15px;
     margin: 0 auto;
@@ -36,6 +54,9 @@
 .heared-icon {
     width: 18px;
     height: 26px;
+}
+.header-link {
+    font-size: 20px;
 }
 .header-list {
     display: flex;
@@ -48,35 +69,21 @@
 .header-list-item{
     font-size: 14px;
 }
-.header-link {
-    color: var(--color-quovo-gray);
-    margin-left: 10px;
-    font-family: "Space Grotesk";
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 0.8;
-    letter-spacing: -3%;
-    align-items: center;
-}
 .header-button {
     height: 42px;
     width: 86px;
-    border-radius: 30px;
-    border: 0;
-    background-color: var(--color-iris);
-
-}
-.header-button:hover {
-    background-color: var(--color-dark-gray);
 }
 .header-button-text {
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 500;
     font-size: 14px;
-    line-height: 27px;
-    letter-spacing: -2%;
-    text-align: justify;
-    color: var(--color-white);
+}
+.login-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.button-burger-mobile {
+    display: none;
 }
 } 
 

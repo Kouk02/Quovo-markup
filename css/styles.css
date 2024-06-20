@@ -1,105 +1,49 @@
 /*! HEADER */
  @media screen and (min-width: 1157px) {
-    .container-header {
-        display: flex;
-        justify-content: center;
-        padding: 0 15px;
-        margin: 0 auto;
-    }
-    .header-nav {
-        display: flex;
-        align-items: center;
-    }
-
-    .login-list {
-        display: flex;
-        align-items: center;
-        gap: 32px;
-    }
+.container-header {
+    justify-content: center;
+    padding: 0 15px;
+}
 .header-list-item{
     font-size: 18px;
 }
-    .nav-link {
-        color: var(--color-white);
-        white-space: nowrap;
+.nav-link {
+    white-space: nowrap;
+}
+.header-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 243px;
+    margin-right: 116px;
+    align-items: center;
+    padding-top: 37px;
+    padding-bottom: 37px;
     }
-
-    .nav-link:hover {
-        color: var(--color-iris);
-    }
-
-    .nav-link-login {
-        color: var(--color-gray);
-    }
-
-    .nav-link-login:hover {
-        color: var(--color-iris);
-    }
-
-    .header-list {
-        display: flex;
-        gap: 40px;
-        margin-left: 243px;
-        margin-right: 116px;
-        align-items: center;
-        padding-top: 37px;
-        padding-bottom: 37px;
-    }
-
-
-    .header {
-        border-bottom: 2px solid var(--color-dark-gray);
-        background-color: var(--color-dark-blue);
-    }
-
-    .heared-icon {
-        fill: var(--color-quovo-gray);
-        width: 20px;
-        height: 28px;
-    }
-
-    .header-link {
-        color: var(--color-quovo-gray);
-        margin-left: 10px;
-        font-family: "Space Grotesk";
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 0.8;
-        letter-spacing: -3%;
-
-    }
-
-
-    .header-button {
-        height: 52px;
-        width: 125px;
-        border-radius: 30px;
-        border: 0;
-        background-color: var(--color-iris);
-
-    }
-
-    .header-button:hover {
-        background-color: var(--color-dark-gray);
-    }
-
-    .header-button-text {
-        font-family: 'Plus Jakarta Sans';
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 27px;
-        letter-spacing: -2%;
-        text-align: justify;
-        color: var(--color-white);
-    }
+.heared-icon {
+    width: 20px;
+    height: 28px;
+}
+.header-link {
+    font-size: 24px;
+}
+.header-button {
+    height: 52px;
+    width: 125px;
+}
+.header-button-text {
+    font-size: 18px;
+}
 .button-burger-mobile{
     display: none;
 }
+.login-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
 }  
-
-
 /*! SECTION HERO */
-/* .container-hero-title {
+.container-hero-title {
     max-width: 1200px;
     position: relative;
 }
@@ -196,7 +140,7 @@
     width: 100%;
     height: auto;
     border-radius: 20px 20px 0 0;
-} */
+} 
 
 
 /*! SECTION FINANCES */
@@ -1221,3 +1165,14 @@
     font-size: 18px;
     line-height: 1.5;
 } */
+
+@media screen and (min-width: 1157px) {
+    .icon-up-arrow-button {
+        width: 24px;
+        height: 24px;
+    }
+
+    .button-up {
+        padding: 12px;
+    }
+}

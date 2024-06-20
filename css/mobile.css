@@ -1,15 +1,18 @@
 
 /*! HEADER */
-
+.header {
+    border-bottom: 2px solid var(--color-dark-gray);
+    background-color: var(--color-dark-blue);
+}
 .container-header {
     display: flex;
     margin: 0 auto;
     align-items: center;
 }
-.header {
-    border-bottom: 2px solid var(--color-dark-gray);
-    background-color: var(--color-dark-blue);
-    }
+.logo-section {
+    display: flex;
+    align-items: center;
+}
 .heared-icon {
     fill: var(--color-quovo-gray);
     }
@@ -24,10 +27,7 @@
     padding-top: 24px;
     padding-bottom: 24px;
 }
-.logo-section{
-    display: flex;
-    align-items: center;
-}
+
 /* ______________________@MEDIA_______________________________ */
 
 @media screen and (max-width: 767px) {
@@ -39,22 +39,22 @@
 .container-header {
     justify-content: space-between;
 }
-    .button-burger-mobile {
+.header-link {
+    font-size: 20px;
+    align-items: center;
+    width: 16px;
+    }
+.heared-icon {
+    width: 16px;
+    height: 24px;
+    }
+.button-burger-mobile {
     max-height: 32px;
     padding: 0;
     background-color: transparent;
     border: none;
     line-height: 0;
-    }
-    .header-link {
-    font-size: 20px;
-    align-items: center;
-    width: 16px;
-    }
-    .heared-icon {
-    width: 16px;
-    height: 24px;
-    }
+}
 }
 /*! SECTION HERO */
 .container-hero-title {
