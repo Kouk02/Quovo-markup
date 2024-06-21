@@ -1,17 +1,16 @@
-// Отримуємо необхідні елементи
-const openMenuBtn = document.querySelector('[data-menu-open]');
-const closeMenuBtn = document.querySelector('[data-menu-close]');
-const menuModal = document.querySelector('[data-menu]');
-const animItemsLogo = document.querySelectorAll('._anim-items-logo');
-const animItems = document.querySelectorAll('._anim-items');
+let openMenuBtn = document.querySelector('[data-menu-open]');
+let closeMenuBtn = document.querySelector('[data-menu-close]');
+let menuModal = document.querySelector('[data-menu]');
+let animItemLogo = document.querySelectorAll('._anim-items-logo');
+let animItem = document.querySelectorAll('._anim-items');
 
 // Функція для додавання класів анімації
 function addAnimationClasses() {
-    animItemsLogo.forEach(item => {
+    animItemLogo.forEach(item => {
         item.classList.add('_active-logo');
         item.classList.remove('_inactive-logo');
     });
-    animItems.forEach(item => {
+    animItem.forEach(item => {
         item.classList.add('_active');
         item.classList.remove('_inactive');
     });
@@ -19,20 +18,21 @@ function addAnimationClasses() {
 
 // Функція для видалення класів анімації
 function removeAnimationClasses() {
-    animItemsLogo.forEach(item => {
+    animItemLogo.forEach(item => {
         item.classList.remove('_active-logo');
         item.classList.add('_inactive-logo');
     });
-    animItems.forEach(item => {
+    animItem.forEach(item => {
         item.classList.remove('_active');
         item.classList.add('_inactive');
     });
 }
 
 // Обробник події для відкриття меню
-openMenuBtn.addEventListener('click', () => {
+openMenuBtn.addEventListener('click', (event) => {
+    event.preventDefault(); // Запобігаємо стандартній поведінці кнопки
     menuModal.classList.remove('hidden-menu');
-    setTimeout(addAnimationClasses, 10); // Невелика затримка для гарантії, що CSS-перехід спрацює
+    addAnimationClasses(); // Запускаємо анімацію одразу після відкриття меню
 });
 
 // Обробник події для закриття меню
@@ -43,6 +43,14 @@ closeMenuBtn.addEventListener('click', () => {
         menuModal.classList.add('hidden-menu');
     }, 800); // 800ms відповідає тривалості анімації в CSS
 });
+function addAnimationClasses() {
+    console.log('Adding animation classes');
+    // ... решта коду
+}
 
+function removeAnimationClasses() {
+    console.log('Removing animation classes');
+    // ... решта коду
+}
 // Ініціалізація: встановлюємо початковий стан
 removeAnimationClasses();
