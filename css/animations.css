@@ -1,0 +1,32 @@
+@import url('global.css');
+._anim-items {
+    transform: translate(-120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+._inactive {
+    transform: translate(-120%, 0px);
+    opacity: 0;
+}
+
+._active {
+    transform: translate(0px, 0%);
+    opacity: 1;
+}
+
+._anim-items-logo {
+    transform: translate(0px, -40%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+._inactive-logo {
+    transform: translate(0px, -40%);
+    opacity: 0;
+}
+
+._active-logo {
+    transform: translate(0px, 0%);
+    opacity: 1;
+}

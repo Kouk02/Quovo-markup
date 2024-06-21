@@ -1,3 +1,4 @@
+@import url('global.css');
 /*! HEADER */
 .header-nav {
     display: flex;
@@ -18,15 +19,12 @@
 .nav-link:hover {
     color: var(--color-iris);
 }
-
 .nav-link-login {
     color: var(--color-gray);
 }
-
 .nav-link-login:hover {
     color: var(--color-iris);
 }
-
 .header-button {
     border-radius: 30px;
     border: 0;
@@ -46,6 +44,9 @@
 
 /* ______________________@MEDIA_______________________________ */
 @media screen and (min-width: 768px) and (max-width: 1200px) {
+.modal-window-menu{
+    display: none;
+}
 .container-header {
     padding: 0 15px;
     margin: 0 auto;

@@ -16,7 +16,6 @@
 body {
     font-family: "Plus Jakarta Sans", medium;
     margin: 0;
-    color: var(--color-slate);
 }
 
 button {
@@ -91,37 +90,6 @@ button {
     font-weight: 600;
     line-height: 1.5;
     text-align: center;
-}
-._anim-items{
-    transform: translate(-120%, 0px);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-}
-._inactive {
-    transform: translate(-120%, 0px);
-    opacity: 0;
-}
-._active {
-    transform: translate(0px, 0%);
-    opacity: 1;
-}
-
-
-
-._anim-items-logo {
-    transform: translate(0px, -40%);
-    opacity: 0;
-    transition: all 0.8s ease 0s;
-}
-
-._inactive-logo {
-    transform: translate(0px, -40%);
-    opacity: 0;
-}
-
-._active-logo {
-    transform: translate(0px, 0%);
-    opacity: 1;
 }
 .container {
 margin-left: auto;
