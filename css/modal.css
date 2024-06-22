@@ -44,6 +44,9 @@ flex: 1;
 .nav-link-menu{
     color: var(--color-white);
 }
+.nav-link-login-menu:hover {
+    color: var(--color-iris);
+}
 .nav-link-menu:hover {
     color: var(--color-iris);
 }
@@ -57,7 +60,6 @@ flex: 1;
 }
 .login-list-item-menu:last-child {
     margin-left: auto;
-    margin-right: 8px;
 }
 .header-list-item-menu{
     font-size: 14px;
