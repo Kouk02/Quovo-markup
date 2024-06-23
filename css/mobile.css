@@ -131,11 +131,30 @@
 .video-overlay{
     display: none;
 }
-.image-hero-ellipse{
-    display: none;
+.image-hero-ellipse {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 180px;
+    height: auto;
+    animation: bounce 3s infinite ease-in-out;
 }
-.image-hero-ellipse-second{
-    display: none;
+.image-hero-ellipse-second {
+    position: absolute;
+    bottom: 120px;
+    left: 0px;
+    width: 180px;
+    height: auto;
+    animation: bounce 3s infinite ease-in-out;
+}
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
 }
 }
 /*! SECTION FINANCES */
