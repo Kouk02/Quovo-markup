@@ -92,6 +92,7 @@
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
     line-height: 1.5;
+    transition: transform 0.5s ease-in-out;
 }
 .hero-button-first:hover {
     background-color: var(--color-dark-gray);
@@ -104,6 +105,7 @@
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
     line-height: 1.5;
+    transition: transform 0.5s ease-in-out;
 }
 .hero-button-second:hover {
     background-color: var(--color-dark-gray);
@@ -366,6 +368,7 @@
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
     line-height: 1.5;
+    transition: transform 0.5s ease-in-out;
 }
 .register-button-first:hover {
     background-color: var(--color-dark-gray);
@@ -381,6 +384,7 @@
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
     line-height: 1.5;
+    transition: transform 0.5s ease-in-out;
 }
 /* ______________________@MEDIA_______________________________ */
 @media screen and (max-width: 767px) {
