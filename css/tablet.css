@@ -138,6 +138,7 @@
     width: 330px;
     height: auto;
     animation: bounce 3s infinite ease-in-out;
+    pointer-events: none;
 }
 .image-hero-ellipse-second {
     position: absolute;
@@ -146,6 +147,7 @@
     width: 330px;
     height: auto;
     animation: bounce 3s infinite ease-in-out;
+    pointer-events: none;
 }
 @keyframes bounce {
     0%,
