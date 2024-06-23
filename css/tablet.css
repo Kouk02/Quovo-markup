@@ -66,6 +66,8 @@
     margin-right: 56px;
     padding-top: 27px;
     padding-bottom: 27px;
+    text-align: center;
+    align-items: center;
 }
 .header-list-item{
     font-size: 14px;
