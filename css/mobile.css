@@ -410,7 +410,6 @@
     font-size: 12px;
 }
 }
-
 /*! Section stepper */
 .section-stepper {
     background-color: var(--color-dark-blue);
@@ -460,7 +459,6 @@
     align-items: center;
     color: var(--color-white);
     font-weight: 600;
-    font-size: 14px;
     line-height: 1.5;
     letter-spacing: -2%;
 }
@@ -524,6 +522,7 @@
 }
 .cirle-steps {
     width: 25px;
+    font-size: 14px;
     height: 26px;
 }
 .stepper-step-text:first-child{
