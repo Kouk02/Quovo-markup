@@ -165,7 +165,6 @@
  .section-finances {
      background-color: var(--color-white);
      position: relative;
-     z-index: 1;
  }
  .container-finances {
      padding-top: 120px;

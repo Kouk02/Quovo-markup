@@ -78,3 +78,20 @@ if (animItemsLogo.length > 0) {
         animOnScroll();
     }, 300);
 }
+
+//! ////////////////////////////////// smoke effect cursor 
+document.addEventListener('mousemove', function(e) {
+    createSmoke(e.pageX, e.pageY);
+});
+
+function createSmoke(x, y) {
+    const smoke = document.createElement('div');
+    smoke.className = 'smoke';
+    smoke.style.left = `${x}px`;
+    smoke.style.top = `${y}px`;
+    document.getElementById('smoke-container').appendChild(smoke);
+    
+    setTimeout(() => {
+        smoke.remove();
+    }, 1000);
+}

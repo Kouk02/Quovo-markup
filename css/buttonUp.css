@@ -74,6 +74,7 @@
     }
 
     .button-up {
+        transition: transform 0.5s ease-in-out;
         padding: 8px;
     }
 }
