@@ -89,7 +89,7 @@
 /*! SECTION HERO */
 .video-overlay {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0;
     right: 0;
     height: 0;
@@ -130,6 +130,31 @@
 }
 .video-overlay:hover {
     height: 264px;
+}
+.image-hero-ellipse {
+    position: absolute;
+    top: -110px;
+    right: 0;
+    width: 330px;
+    height: auto;
+    animation: bounce 3s infinite ease-in-out;
+}
+.image-hero-ellipse-second {
+    position: absolute;
+    bottom: -20px;
+    left: 0px;
+    width: 330px;
+    height: auto;
+    animation: bounce 3s infinite ease-in-out;
+}
+@keyframes bounce {
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
 }
 }
 /*! SECTION FINANCES */

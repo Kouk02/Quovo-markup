@@ -131,6 +131,12 @@
 .video-overlay{
     display: none;
 }
+.image-hero-ellipse{
+    display: none;
+}
+.image-hero-ellipse-second{
+    display: none;
+}
 }
 /*! SECTION FINANCES */
  .section-finances {
