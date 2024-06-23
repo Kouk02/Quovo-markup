@@ -69,6 +69,7 @@
 }
 .header-list-item{
     font-size: 14px;
+    transition: transform 0.5s ease-in-out;
 }
 .header-button {
     height: 42px;
