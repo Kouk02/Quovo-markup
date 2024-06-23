@@ -82,13 +82,10 @@
     align-items: center;
     gap: 32px;
 }
-
 .button-burger-mobile {
     display: none;
 }
 } 
-
-
 /*! SECTION HERO */
 .video-overlay {
     position: absolute;
@@ -98,9 +95,6 @@
     height: 0;
     overflow: visible;
     transition: height 0.3s ease;
-}
-.video-overlay:hover {
-    height: 324px;
 }
 .video-hero {
     width: 100%;
@@ -134,10 +128,11 @@
     font-size: 14px;
     margin-bottom: 90px;
 }
-
+.video-overlay:hover {
+    height: 264px;
+}
 }
 /*! SECTION FINANCES */
-
 /*___________________________________________ */
 .container-item-card-finances {
     padding-top: 24px;
@@ -194,7 +189,6 @@
     margin-bottom: 10px;
 }
 }
-
 /*! register section */
 .register-list-card {
     display: flex;
@@ -509,9 +503,6 @@
 .link-footer {
     font-size: 14px;
 }
-
-
-
  .container-footer-end {
      padding-top: 24px;
  }

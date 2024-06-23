@@ -132,11 +132,6 @@
     display: none;
 }
 }
-
-
-
-
-
 /*! SECTION FINANCES */
  .section-finances {
      background-color: var(--color-white);
@@ -179,7 +174,6 @@
 }
 .finances-text {
     font-family: "Plus Jakarta Sans";
-    font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
     color: var(--color-Mostly-desaturated-dark-blue);
@@ -233,6 +227,9 @@
 .finances-item-text {
     width: 200px;
     align-self: flex-end;
+}
+.finances-text {
+    font-size: 14px;
 }
 /*___________________________________________ */
 .container-finances-description {
@@ -940,7 +937,6 @@
     font-size: 12px;
 }
 }
-
 .item-footer-link {
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
@@ -986,4 +982,3 @@ border-top: 1px solid var(--color-sakura);
     font-size: 10px;
 }
 }
-
