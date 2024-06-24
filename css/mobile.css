@@ -883,7 +883,6 @@
 .section-footer {
     background-color: var(--color-white);
 }
-
 .footer-link-name {
     font-family: 'Plus Jakarta Sans';
     font-weight: 600;
@@ -891,15 +890,20 @@
     letter-spacing: -2%;
     color: var(--color-dark-gray);
 }
-.footer-link-logo {
-    margin-right: 10px;
-}
 .footer-name {
+    display: inline-block;
     color: var(--color-dark-gray);
+    margin-left: 5px;
     font-family: "Space Grotesk";
     font-weight: 700;
     line-height: 0.8;
     letter-spacing: -3%;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
 }
 .footer-icon {
     fill: var(--color-iris);
@@ -922,11 +926,6 @@
 @media screen and (max-width: 767px) {
 .section-footer {
     padding: 30px 0px;
-}
-.footer-logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .footer-text {
     font-size: 12px;
@@ -952,6 +951,7 @@
     margin-bottom: 12px;
 }
 .footer-logo {
+    justify-content: center;
     margin-bottom: 18px;
 }
 

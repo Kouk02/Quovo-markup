@@ -467,7 +467,6 @@
 }
 }
  /*! Footer */
-
 .footer-link-list {
     display: flex;
     align-items: center;
@@ -511,14 +510,8 @@
     margin-bottom: 24px;
 }
 .footer-logo {
-    display: flex;
-    align-items: center;
     justify-content: center;
     margin-bottom: 16px;
-
-}
-.footer-link-logo {
-    margin-right: 10px;
 }
 .footer-icon {
     fill: var(--color-iris);
