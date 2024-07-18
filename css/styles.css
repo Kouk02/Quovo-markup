@@ -1,13 +1,11 @@
-<<<<<<< Updated upstream
+
 @import url('global.css');
 @import url('mobile.css');
 @import url('tablet.css');
 @import url('modal.css');
 @import url('buttonUp.css');
 @import url('animations.css');
-=======
 
->>>>>>> Stashed changes
 /*! HEADER */
  @media screen and (min-width: 1200px) {
 .modal-window-menu {
