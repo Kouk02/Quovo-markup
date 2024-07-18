@@ -12,3 +12,20 @@
         document.body.classList.toggle('no-scroll');
     }
 })();
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const openButton = document.querySelector('[data-menu-open]');
+  const modalWindow = document.querySelector('[data-menu]');
+  const closeButton = modalWindow.querySelector('.button-window-menu-close');
+  
+  openButton.addEventListener('click', () => {
+    modalWindow.classList.remove('hidden-menu'); 
+    document.body.classList.add('no-scroll'); 
+  });
+  
+  closeButton.addEventListener('click', () => {
+    modalWindow.classList.add('hidden-menu'); 
+    document.body.classList.remove('no-scroll'); 
+  });
+});
