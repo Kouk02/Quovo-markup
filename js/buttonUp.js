@@ -1,37 +1,52 @@
-let scrollToTopBtn = document.querySelector(".button-up");
-let prevScrollTop = 0;
+(() => {
+    const scrollToTopBtn = document.querySelector(".button-up");
+    let prevScrollTop = 0;
 
-window.onscroll = function() {scrollFunction()};
+   
+    const lazyLoad = () => {
+        const lazyElements = document.querySelectorAll('[data-src]');
+        const windowHeight = window.innerHeight;
 
-function scrollFunction() {
-    let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+        lazyElements.forEach(element => {
+            const rect = element.getBoundingClientRect();
+            const elementTop = rect.top;
+            const elementBottom = rect.bottom;
 
-    if (scrollTop > 100) {
-        scrollToTopBtn.style.display = "block";
-        scrollToTopBtn.classList.add("_anim-items");
-        scrollToTopBtn.classList.remove("_inactive");
+            if (elementTop < windowHeight && elementBottom >= 0) {
+                if (element.dataset.src) {
+                    element.src = element.dataset.src;
+                    element.removeAttribute('data-src');
+                }
+            }
+        });
+    };
 
-        if (scrollTop > prevScrollTop) {
-            scrollToTopBtn.classList.add("scroll-down");
-            scrollToTopBtn.classList.remove("scroll-up");
+    window.addEventListener('scroll', () => {
+        const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (scrollTop > 100) {
+            scrollToTopBtn.style.display = "block";
+            scrollToTopBtn.classList.add("_anim-items");
+            scrollToTopBtn.classList.remove("_inactive");
+            scrollToTopBtn.classList.toggle("scroll-down", scrollTop > prevScrollTop);
+            scrollToTopBtn.classList.toggle("scroll-up", scrollTop <= prevScrollTop);
         } else {
-            scrollToTopBtn.classList.add("scroll-up");
-            scrollToTopBtn.classList.remove("scroll-down");
+            scrollToTopBtn.classList.add("_inactive");
+            scrollToTopBtn.classList.remove("_anim-items");
+            scrollToTopBtn.style.display = "none";
         }
-    } else {
-        scrollToTopBtn.classList.add("_inactive");
-        scrollToTopBtn.classList.remove("_anim-items");
-        scrollToTopBtn.style.display = "none";
-    }
 
-    prevScrollTop = scrollTop;
-}
-
-function scrollToTop() {
-    window.scrollTo({
-        top: 0,
-        behavior: "smooth"
+        prevScrollTop = scrollTop;
+      
+        lazyLoad();
     });
-}
 
-scrollToTopBtn.addEventListener("click", scrollToTop);
+    scrollToTopBtn.addEventListener("click", () => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+    
+    window.addEventListener('load', lazyLoad);
+})();
